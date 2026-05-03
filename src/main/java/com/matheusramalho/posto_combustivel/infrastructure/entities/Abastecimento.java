@@ -21,7 +21,7 @@ public class Abastecimento {
 
     @OneToOne
     @JoinColumn(name = "bomba_combustivel_id")
-    private BombaDeCombustivel bombaDeCombustivel;
+    private BombasDeCombustivel bombaDeCombustivel;
 
     @Column(name = "data_abatecimento")
     private LocalDate dataAbastecimento;

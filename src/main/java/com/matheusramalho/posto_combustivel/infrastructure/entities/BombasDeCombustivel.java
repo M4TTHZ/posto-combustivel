@@ -10,7 +10,7 @@ import lombok.*;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class BombaDeCombustivel {
+public class BombasDeCombustivel {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
